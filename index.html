@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Створити доссягнення з майнкрафт</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="parentDiv">
+    <h1>Генератор "Ачівок" із Minecraft</h1>
+    <p>Створіть досягнення з цієї прекрасної гри на свій погляд та смак!</p>
+    <div id="create-achievement">
+        <label class="preview" for="achievement">Превью</label>
+        <div id="png">
+        <div class="achievement">
+            <div><img src="https://lh3.googleusercontent.com/xGjYgNYRRRH1lm-g8vyJMPSm9o6Eb2t47QNJYaNOOrz5A2b1_jVup319OoOevoNI3I_U0I9CZqKDZl4=w60-h60-l90-rj" alt=""></div>
+            <div class="body_achievement">
+                <div class="text_achievement">
+                    Достижение получено!
+                </div>
+                <div id="description">
+                    Ваш текст
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <label class="preview" for="achievement">Заголовок</label>
+    <input type="text" class="input-text"><br>
+    <label class="preview" for="achievement">Текст</label>
+    <input type="text" class="input-text"><br>
+    <label class="preview" for="achievement">Іконка</label>
+    <input type="file" class="input-file" id="file-choose"><br>
+    <button id="download">Згенерувати</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</html>
